@@ -3,7 +3,7 @@
 #include <string>
 #include <cmath>
 
-
+#include <bits/stdc++.h>
 unsigned long long decodeValue(const std::string& value, int base) {
     unsigned long long result = 0;
     for (char digit : value) {
